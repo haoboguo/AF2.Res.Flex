@@ -5,4 +5,4 @@ This repository contains codes for analysis of the AlphaFold2 (AF2) predicted al
 
 The R packages "bio3d" is used to analyze the MD trajectories (dcd format) for Distance Variation (DV) calculations and PCA analysis; the "heatmap.2" function from "gplots" is used to plot the heatmaps.
 
-The PAE maps are plotted from the pkl files from the AF2 modeling. The unpickle script and R script for the heatmap are provided. The DV maps are calculated using the alpha-carbon atoms of all residues. The mass-weighted PCA analysis are performed to all backbone heavy atoms.
+The PAE maps are plotted from the pkl files from the AF2 modeling. R script for the heatmap is provided. The DV maps are calculated using the alpha-carbon atoms of all residues. The mass-weighted PCA analysis are performed to all backbone heavy atoms.

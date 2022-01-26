@@ -14,3 +14,9 @@ dist.mat2.R: the distance variation matrix estimated and plotted from the MD tra
 pca.R: principal component analysis of from MD trajectory (100 ns). The residue cross-correlation analysis is also performed; pymol is required for visualization (see the manuscript).
 
 The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps.
+
+The primary movement (PC1 from 100 ns MD) examples include:
+
+E.pc1.gif: PC1 (principal movement 1) is the vibration between the two domains connected by a flexible link, in the two-domain protein GNE (system E).
+
+I.pc1.gif: PC1 (principal movement 1) is the opening-and-closing dynamics of the two DNA-binding domains in the MerR homodimer (system I).

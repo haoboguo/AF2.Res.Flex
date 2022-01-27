@@ -1,27 +1,39 @@
 # AF2.Res.Flex
 AlphaFold2 (AF2) Predicts Residue Flexibility
 
-The AF2 models for 11 proteins include (Table 1; sequences in Appendix):
+1. The AF2 models for 11 proteins include (Table 1; sequences in Appendix):
 
 A: Lanmodulin; 
+
 B: dehalogenase from Deftia acidovorans; 
+
 C: the PAS-A domain protein; 
+
 D: an antifreeze protein (type III) with the X-ray crystallographic structure avalable (PDB ID 1HG7); 
+
 E: a two-domain proten GNE from Homo sapiens (UniProt ID: Q9Y223); 
-F: the PAS-A domain containing kinase from Homo sapiens (large protein, the UniProt ID: Q96RG2); 
+
+F: the PAS-A domain containing kinase from Homo sapiens (large protein, the UniProt ID: Q96RG2);
+
 G: the inaZ ice nucleation protein from Pseudomonas syringae (large protein, the UniProt ID P06620); 
+
 H: a heterodimer with the PAS-A domain and the kinase domain; 
-I: a homodimer of a MerR-family protein from Mycobacterium tuberculosis (UniProt ID O53384); 
+
+I: a homodimer of a MerR-family protein from Mycobacterium tuberculosis (UniProt ID O53384);
+
 J: an intrinsically disordered protein NVJP-1 from Nereis virens; 
+
 K: a randomized protein.
 
-Python code for un-pickle the data from AF2 models:
+
+2. Python code for un-pickle the data from AF2 models:
 
 plddt.py: get the PLDDT scores for the best AF2 model (highest mean PLDDT)
 
 pae.py: get the PAE matrix for the best AF2 model (highest mean PLDDT)
 
-R codes (using the GNE protein as examples) include:
+
+3. R codes (using the GNE protein as examples) include:
 
 pae.R: the PAE heatmap from the predicted aligned error matrix providied by AF2 (recorded in associated python pycle files of the predictions).
 
@@ -31,7 +43,8 @@ pca.R: principal component analysis of from MD trajectory (100 ns). The residue 
 
 The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps.
 
-The primary movement (PC1 from 100 ns MD) examples include:
+
+4. The primary movement (PC1 from 100 ns MD) examples include:
 
 E.pc1.gif: PC1 (principal movement 1) is the vibration between the two domains connected by a flexible link, in the two-domain protein GNE (system E).
 

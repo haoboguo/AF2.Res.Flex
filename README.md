@@ -16,7 +16,9 @@ J: an intrinsically disordered protein NVJP-1 from Nereis virens;
 K: a randomized protein.
 
 Python code for un-pickle the data from AF2 models:
+
 plddt.py: get the PLDDT scores for the best AF2 model (highest mean PLDDT)
+
 pae.py: get the PAE matrix for the best AF2 model (highest mean PLDDT)
 
 R codes (using the GNE protein as examples) include:

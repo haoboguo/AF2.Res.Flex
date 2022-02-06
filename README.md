@@ -1,6 +1,6 @@
 # AF2.Res.Flex
 
-This repository provide proteins obtained from AlphaFold2 (AF2), and the codes used in the manuscript "AlphaFold2 models indicate that protein sequence determines both structure and dynamics" by Guo et al. 
+This repository provide protein structures constructed by AlphaFold2 (AF2), and the codes used in the manuscript "AlphaFold2 models indicate that protein sequence determines both structure and dynamics", which shows that the AF2 models decipher dynamics information encoded in the protein primary sequences; contributed by Guo et al. 
 
 ## The AF2 models for 11 proteins include (Table 1; sequences in Appendix):
 

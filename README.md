@@ -47,7 +47,7 @@ pca.R: principal component analysis of from MD trajectory (100 ns). The residue 
 The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps. The color scheme is white for high and darkgreen for low PAE/DV scores, respectively, consistent with the schme used in the AF2 database.
 
 
-## The primary movement (PC1 from 100 ns MD) examples
+## The primary movement (PC1 from the principal component analysis of a 100 ns MD) examples
 
 The two domain protein GNE (system E)
 ![PC1, sysE](E.pc1.gif)

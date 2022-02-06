@@ -42,7 +42,7 @@ pae.R: the PAE heatmap from the predicted aligned error matrix providied by AF2 
 
 dist.mat2.R: the distance variation matrix estimated and plotted from the MD trajectory (100 ns). A protein pdb ("protein.pdb") and a dcd traject file ("protein.rst1.dcd") will be required as inputs.
 
-pca.R: principal component analysis of from MD trajectory (100 ns). The residue cross-correlation analysis is also performed; pymol is required for visualization (see the manuscript).
+pca.R: principal component analysis (PCA) of from MD trajectory (100 ns). The residue cross-correlation analysis is also performed; pymol is required for visualization (see the manuscript). A protein pdb and a dcd trajectory file will be required as input. Here, the PCA will be performed on the backbone atoms (C, O, N, CA); note that the trajectory should contains at least 3N frames (N is the total atom number used in the PCA). Each MD trajectory used in this MS has 10k frames (trajectories have been saved every 10 ps).
 
 The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps. The color scheme is white for high and darkgreen for low PAE/DV scores, respectively, consistent with the schme used in the AF2 database.
 

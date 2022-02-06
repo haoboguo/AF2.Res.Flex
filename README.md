@@ -40,7 +40,7 @@ The best model ("ranked_0") that has the highest mean pLDDT score will be pickle
 
 pae.R: the PAE heatmap from the predicted aligned error matrix providied by AF2 (the csv file produced by the python unpicle code will be used as input).
 
-dist.mat2.R: the distance variation matrix estimated and plotted from the MD trajectory (100 ns). A protein pdb ("protein.pdb") and a dcd traject file ("protein.dcd") will be used as the inputs.
+dist.mat2.R: the distance variation matrix estimated and plotted from the MD trajectory (100 ns). A protein pdb ("protein.pdb") and a dcd traject file ("protein.rst1.dcd") will be required as inputs.
 
 pca.R: principal component analysis of from MD trajectory (100 ns). The residue cross-correlation analysis is also performed; pymol is required for visualization (see the manuscript).
 

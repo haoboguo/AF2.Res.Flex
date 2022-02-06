@@ -34,7 +34,7 @@ plddt.py: get the PLDDT scores for the best AF2 model (highest mean PLDDT)
 pae.py: get the PAE matrix for the best AF2 model (highest mean PLDDT)
 
 
-# R codes (using the GNE protein as examples) include:
+## R codes (using the GNE protein as examples) include:
 
 pae.R: the PAE heatmap from the predicted aligned error matrix providied by AF2 (recorded in associated python pycle files of the predictions).
 
@@ -47,6 +47,8 @@ The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function 
 
 ## The primary movement (PC1 from 100 ns MD) examples include:
 
-System E. pc1.gif: PC1 (principal movement 1) imgs/casp14_predictions.gifis the vibration between the two domains connected by a flexible link, in the two-domain protein GNE (system E).
+The two domain protein GNE (system E)
+E.pc1.gif
 
-I.pc1.gif: PC1 (principal movement 1) is the opening-and-closing dynamics of the two DNA-binding domains in the MerR homodimer (system I).
+The homodimer, MerR-family protien (system I)
+I.pc1.gif

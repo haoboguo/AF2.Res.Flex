@@ -2,7 +2,7 @@
 
 This repository provide protein structures constructed by AlphaFold2 (AF2), and the codes used in the manuscript "AlphaFold2 models indicate that protein sequence determines both structure and dynamics", which shows that the AF2 models decipher dynamics information encoded in the protein primary sequences; contributed by Guo et al. 
 
-## The AF2 models for 11 proteins include (Table 1; sequences in Appendix):
+## The AF2 models for 11 proteins include (Table 1; sequences in Appendix)
 
 A: Lanmodulin; 
 
@@ -27,7 +27,7 @@ J: an intrinsically disordered protein NVJP-1 from Nereis virens;
 K: a randomized protein.
 
 
-## Python code for un-pickle the data from AF2 models:
+## Python codes for un-pickle the data from AF2 models
 
 plddt.py: get the PLDDT scores for the best AF2 model
 
@@ -36,7 +36,7 @@ pae.py: get the PAE matrix for the best AF2 model
 The best model ("ranked_0") that has the highest mean pLDDT score will be pickled and the codes can be modified for unpicling other models.
 
 
-## R codes (using the GNE protein as examples) include:
+## R codes (using the GNE protein as examples)
 
 pae.R: the PAE heatmap from the predicted aligned error matrix providied by AF2 (recorded in associated python pycle files of the predictions).
 
@@ -47,7 +47,7 @@ pca.R: principal component analysis of from MD trajectory (100 ns). The residue 
 The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps. The color scheme is white for high and darkgreen for low PAE/DV scores, respectively, consistent with the schme used in the AF2 database.
 
 
-## The primary movement (PC1 from 100 ns MD) examples include:
+## The primary movement (PC1 from 100 ns MD) examples
 
 The two domain protein GNE (system E)
 ![PC1, sysE](E.pc1.gif)

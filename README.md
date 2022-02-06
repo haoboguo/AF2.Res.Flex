@@ -48,7 +48,7 @@ The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function 
 ## The primary movement (PC1 from 100 ns MD) examples include:
 
 The two domain protein GNE (system E)
-E.pc1.gif
+![PC1, sysE](E.pc1.gif)
 
 The homodimer, MerR-family protien (system I)
-I.pc1.gif
+![PC1, sysI](I.pc1.gif)

@@ -1,4 +1,4 @@
-# AF2.Res.Flex
+# AlphaFold2 anticipates residue flexibility encolded in protein primary sequences
 
 This repository provide protein structures constructed by AlphaFold2 (AF2), and the codes used in the manuscript "AlphaFold2 models indicate that protein sequence determines both structure and dynamics", which shows that the AF2 models decipher dynamics information encoded in the protein primary sequences; contributed by Guo et al. 
 

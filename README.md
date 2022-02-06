@@ -29,9 +29,11 @@ K: a randomized protein.
 
 ## Python code for un-pickle the data from AF2 models:
 
-plddt.py: get the PLDDT scores for the best AF2 model (highest mean PLDDT)
+plddt.py: get the PLDDT scores for the best AF2 model
 
-pae.py: get the PAE matrix for the best AF2 model (highest mean PLDDT)
+pae.py: get the PAE matrix for the best AF2 model
+
+The best model ("ranked_0") that has the highest mean pLDDT score will be pickled and the codes can be modified for unpicling other models.
 
 
 ## R codes (using the GNE protein as examples) include:
@@ -42,7 +44,7 @@ dist.mat2.R: the distance variation matrix estimated and plotted from the MD tra
 
 pca.R: principal component analysis of from MD trajectory (100 ns). The residue cross-correlation analysis is also performed; pymol is required for visualization (see the manuscript).
 
-The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps.
+The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps. The color scheme is white for high and darkgreen for low PAE/DV scores, respectively, consistent with the schme used in the AF2 database.
 
 
 ## The primary movement (PC1 from 100 ns MD) examples include:

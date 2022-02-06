@@ -2,7 +2,7 @@
 
 This repository provide proteins obtained from AlphaFold2 (AF2), and the codes used in the manuscript "AlphaFold2 models indicate that protein sequence determines both structure and dynamics" by Guo et al. 
 
-# The AF2 models for 11 proteins include (Table 1; sequences in Appendix):
+## The AF2 models for 11 proteins include (Table 1; sequences in Appendix):
 
 A: Lanmodulin; 
 
@@ -27,14 +27,14 @@ J: an intrinsically disordered protein NVJP-1 from Nereis virens;
 K: a randomized protein.
 
 
-2. Python code for un-pickle the data from AF2 models:
+## Python code for un-pickle the data from AF2 models:
 
 plddt.py: get the PLDDT scores for the best AF2 model (highest mean PLDDT)
 
 pae.py: get the PAE matrix for the best AF2 model (highest mean PLDDT)
 
 
-3. R codes (using the GNE protein as examples) include:
+# R codes (using the GNE protein as examples) include:
 
 pae.R: the PAE heatmap from the predicted aligned error matrix providied by AF2 (recorded in associated python pycle files of the predictions).
 
@@ -45,8 +45,8 @@ pca.R: principal component analysis of from MD trajectory (100 ns). The residue 
 The R package "bio3d" is used for trajectory analyses; the "heatmap.2" function in package "gplots" is used to plot the heatmaps.
 
 
-4. The primary movement (PC1 from 100 ns MD) examples include:
+## The primary movement (PC1 from 100 ns MD) examples include:
 
-E.pc1.gif: PC1 (principal movement 1) is the vibration between the two domains connected by a flexible link, in the two-domain protein GNE (system E).
+System E. pc1.gif: PC1 (principal movement 1) imgs/casp14_predictions.gifis the vibration between the two domains connected by a flexible link, in the two-domain protein GNE (system E).
 
 I.pc1.gif: PC1 (principal movement 1) is the opening-and-closing dynamics of the two DNA-binding domains in the MerR homodimer (system I).
